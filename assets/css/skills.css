@@ -1,0 +1,20 @@
+.image-text {
+    display: none;
+  }
+
+.dica {
+  margin-top: 10px;
+text-align: center;
+font-size: 25px;
+}
+
+  .about-skills {
+    margin-top: 150px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .hab p{
+    text-align: center;
+    font-size: 20px;
+  }
