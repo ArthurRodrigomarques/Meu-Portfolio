@@ -3,12 +3,12 @@
 window.sr = ScrollReveal({reset: true});
 
 sr.reveal('.home', {duration:1000});
+sr.reveal(".all-skills", {duration:2000})
 sr.reveal('.about-me', {
     rotate: {x:0, y:80, z:0},
     duration:2000
 });
 sr.reveal('.projects', {duration:2000})
-sr.reveal('.footer', {duration:2000});
 
 
      //  maquina de escrever 

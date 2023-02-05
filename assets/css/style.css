@@ -1,3 +1,15 @@
+/* #05f7da */
+.nada {
+    color:#05f7da;
+    color: #0712e4;
+    color: #0a0fbf;
+    color: #1b1b1b;
+}
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +19,12 @@
    body {
     background-color: rgb(36, 34, 34);
     color: white;
+    background: linear-gradient(
+  90deg,
+  rgb(4, 0, 66) 0%,
+  rgba(9, 9, 121, 1) 35%,
+  rgba(0, 212, 255, 1) 100%
+);
   }
   html {
     scroll-behavior: smooth;
@@ -45,9 +63,9 @@ margin: 12px;
    text-decoration: none;
    color: white;
 }
-.menu-navbar ul li:hover {
+.menu-navbar ul li a:hover {
     cursor: pointer;
-    color: rgb(93, 93, 223);
+    color:#05f7da;
 }
 .menu {
     display: none;
@@ -93,7 +111,6 @@ margin: 12px;
     width: 400px;
 }
 .me-home img {
-    position:absolute;
     padding-top: 150px;
     animation: moveUpAndDown 3s ease-in-out infinite;
 }
@@ -128,7 +145,6 @@ margin: 12px;
       /* Skills */
 .all-skills  {
     padding-top: 100px;
-    background-color: rgb(43, 42, 42);
 }
 .skills {
     display: flex;
@@ -142,6 +158,10 @@ margin: 12px;
 .skills img {
     width: 100px;
 }
+.skills img:hover {
+    transform: translate(-5px, -5px);
+    transition: transform .5s, border 1s;
+}
 .skills-img {
     width: 100px;
     height: 100px;
@@ -152,6 +172,7 @@ margin: 12px;
 }
                 /* About-me  */
 .about-me {
+    padding: 100px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -166,8 +187,8 @@ margin: 12px;
      transition: 1s;
 }
 .about-me img:hover {
-    border-bottom:5px solid red;
-    border-left: 5px solid red;
+    border-bottom:5px solid #05f7da;
+    border-left: 5px solid #05f7da;
    
 } 
 .about-me-text {
@@ -191,6 +212,7 @@ margin: 12px;
 #projects h1 {
     text-align: center;
     margin-bottom: 40px;
+    font-size: 40px;
 }
 
 .projetos {
@@ -257,7 +279,7 @@ margin: 12px;
         transition: transform .5s, border 1s;
 }
 
-.home, .about-me, .projects, .footer {
+.home, .about-me, .projects, .all-skills {
     visibility: hidden;
 }
 
