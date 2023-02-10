@@ -3,6 +3,12 @@
     .navbar {
         top: 0;
     }
+    .name-navbar {
+        width: 100%;
+        text-align: center;
+        margin-top: 13px;
+        font-size: 22px;
+    }
     .menu {
         display: block;
         margin: 20px;
@@ -34,7 +40,6 @@
     .me-home img {
         display: block;
         margin: auto;
-        padding-top: 50px;
         animation: none;
     }
 .hab {
@@ -95,10 +100,14 @@
     }
 }
 @media screen and (max-width:450px) {
+    .imagem  {
+        width: 90%;
+    }
+    .links-portfolio {
+    }
     .links-portfolio a {
         display: flex;
         flex-wrap: wrap;
-        text-align: center;
-        
+        text-align: center; 
     }
 }
