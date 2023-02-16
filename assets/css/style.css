@@ -71,7 +71,7 @@ margin: 12px;
 }
 
 .apresentation-home {
-    margin: 200px 0px 0px 0px;
+    margin: 220px 0px 0px 0px;
     height: 50vh;
     width: 50%;
     font-size: 30px;
@@ -99,7 +99,7 @@ margin: 12px;
     position: relative;
 }
 .me-home img {
-    margin-top: 150px;
+    margin-top: 200px;
     animation: moveUpAndDown 3s ease-in-out infinite;
 }
 @keyframes moveUpAndDown {
@@ -114,7 +114,7 @@ margin: 12px;
     }
 }
 .imagem {
-    width: 400px;
+    width: 500px;
     border-radius:15px;
     box-shadow: 5px 5px 5px black;
 }
@@ -128,9 +128,9 @@ margin: 12px;
     background-color: #254bdd;
     margin: 5px;
     padding: 15px 40px;
+    transform: scale(0.4);
 }
 .links-portfolio a:hover {
-        box-shadow: 5px 5px 10px black;
         transition: transform .5s, border 1s;
 }
 
@@ -156,7 +156,7 @@ margin: 12px;
     width: 100px;
 }
 .skills img:hover {
-    transform: translate(-5px, -5px);
+    transform: scale(1.2);
     transition: transform .5s, border 1s;
 }
 .skills-img {
@@ -199,30 +199,22 @@ font-size: 25px;
     justify-content: center;
     align-items: center;
 }
-.about-me img {
-    border-bottom:5px solid #0000A3;
-    border-left:5px solid #0000A3;
-     transition: 1s;
-}
-.about-me img:hover {
-    border-bottom:5px solid #05f7da;
-    border-left: 5px solid #05f7da;
-   
-} 
+
 .about-me-text {
-    width: 60vw;
+    width: 80vw;
 }
 .about-me-text h1 {
     margin: 0px 0px 15px 20px;
-    font-size: 30px;
+    font-size: 40px;
 }
 .about-me-text h3 {
     margin: 0px 0px 15px 20px;
+    font-size: 30px;
 }
 .about-me-text p {
     color: rgb(219, 217, 217);
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
       

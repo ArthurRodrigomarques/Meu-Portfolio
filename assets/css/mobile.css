@@ -41,6 +41,7 @@
         display: block;
         margin: auto;
         animation: none;
+        width: 98%;
     }
 .hab {
     margin-top: 50px;
@@ -67,18 +68,21 @@
         width: 100%;
         height: auto;
     }
-    .about-me-image img{
-        width: 300px;
-    }
     .about-me-text {
         width: 100%;
     
     }
     .about-me-text h1 {
         text-align: center;
+        font-size: 30px;
+    }
+    .about-me-text h3 {
+        text-align: center;
+        font-size: 23px;
     }
     .about-me-text p {
         width: 90%;
+        font-size: 20px;
         text-align: center;
         margin-left: 20px;
     }
@@ -102,8 +106,6 @@
 @media screen and (max-width:450px) {
     .imagem  {
         width: 90%;
-    }
-    .links-portfolio {
     }
     .links-portfolio a {
         display: flex;
