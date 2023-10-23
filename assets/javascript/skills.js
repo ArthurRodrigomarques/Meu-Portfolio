@@ -70,3 +70,48 @@ image6.addEventListener("mouseover", function() {
 image6.addEventListener("mouseout", function() {
   text6.style.display = "none";
 });
+
+//nextjs
+const image7 = document.getElementById("next-skill");
+const text7 = document.getElementById("text7");
+
+image7.addEventListener("mouseover", function() {
+  text7.style.display = "block";
+});
+
+image7.addEventListener("mouseout", function() {
+  text7.style.display = "none";
+});
+
+const image8 = document.getElementById("node-skill");
+const text8 = document.getElementById("text8");
+
+image8.addEventListener("mouseover", function() {
+  text8.style.display = "block";
+});
+
+image8.addEventListener("mouseout", function() {
+  text8.style.display = "none";
+});
+
+const image9 = document.getElementById("nest-skill");
+const text9 = document.getElementById("text9");
+
+image9.addEventListener("mouseover", function() {
+  text9.style.display = "block";
+});
+
+image9.addEventListener("mouseout", function() {
+  text9.style.display = "none";
+});
+
+const image10 = document.getElementById("typescript-skill");
+const text10 = document.getElementById("text10");
+
+image10.addEventListener("mouseover", function() {
+  text10.style.display = "block";
+});
+
+image10.addEventListener("mouseout", function() {
+  text10.style.display = "none";
+});
